@@ -1,0 +1,37 @@
+.modal-content{
+background-color: rgba(36, 34, 34);
+}
+
+.modal-title{
+    font-weight: 700;
+}
+input {
+    border: none;
+}
+.btn-save{
+        background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+        margin: 10px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        border-radius: 10px;
+      }
+
+      .btn-exit{
+        background-image: linear-gradient(to right, #757F9A 0%, #a8acb3  51%, #757F9A  100%);
+        margin: 10px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        border-radius: 10px;
+      }
+
+      .button-container{
+        display:inline-flex;
+      }

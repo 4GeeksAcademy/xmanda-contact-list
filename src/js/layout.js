@@ -8,7 +8,8 @@ import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
-import { Footer } from "./component/footer";
+import EditCard from "./views/editCard";
+import { Form } from "./views/form";
 
 //create your first component
 const Layout = () => {
@@ -18,20 +19,19 @@ const Layout = () => {
 
 	return (
 		<div>
-			<BrowserRouter basename={basename}>
-				<ScrollToTop>
-					<Navbar />
-					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/demo" element={<Demo />} />
-						<Route path="/single/:theid" element={<Single />} />
-						<Route path="*" element={<h1>Not found!</h1>} />
-					</Routes>
-					<Footer />
-				</ScrollToTop>
-			</BrowserRouter>
+		  <BrowserRouter basename={basename}>
+			<ScrollToTop>
+			  <Navbar />
+			  <Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/edit/:contactId" element={<EditCard />} />
+				<Route path="/new" element={<Form />} />
+				<Route path="*" element={<h1>Not found!</h1>} />
+			  </Routes>
+			</ScrollToTop>
+		  </BrowserRouter>
 		</div>
-	);
+	  );
 };
 
 export default injectContext(Layout);

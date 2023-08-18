@@ -1,0 +1,43 @@
+.card {
+    background-color: rgba(37, 36, 36, 0.592);
+    color: white;
+    border-radius: 25px
+}
+
+.contactphoto {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin: 1rem;
+
+}
+
+.card-info-container {
+    overflow: hidden;
+    display: flex;
+}
+
+.cardinfo {
+    margin: 3rem;
+    width: 15rem;
+    height: 5rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+button {
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.btn-edit {
+    color: lightsteelblue;
+    border-color: lightsteelblue;
+}
+
+.btn-delete {
+    color: red;
+    border-color: red;
+
+}
