@@ -24,7 +24,7 @@ export const Form = () => {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="formContainer">
       <h2>Add new contact</h2>
       <form>
         <div className="mb-3">
@@ -77,19 +77,20 @@ export const Form = () => {
             onChange={handleInputChange}
           />
         </div>
-
-        <Link to="/">
-          <button className="btn btn-success me-3">Get Back to Contacts</button>
-        </Link>
-        <Link to="/">
-          <button
-            type="button"
-            className="btn btn-primary"
-            onClick={handleCreateContact}
-          >
-            Save New Contact
-          </button>
-        </Link>
+        <div className="buttons-container">
+          <Link to="/">
+            <button className="btn btn-contacts me-3">Go Back to Contacts</button>
+          </Link>
+          <Link to="/">
+            <button
+              type="button"
+              className="btn btn-save"
+              onClick={handleCreateContact}
+            >
+              Save New Contact
+            </button>
+          </Link>
+        </div>
       </form>
     </div>
   );

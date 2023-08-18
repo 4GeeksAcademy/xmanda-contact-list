@@ -2,12 +2,43 @@
 .formContainer {
     margin: auto;
     padding-top:30px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
     width:600px;
 }
-
+h2{
+    font-weight: 700;
+}
+label{
+    font-weight: bold;
+}
 body{
     color:white;
     font-family: 'Red Hat Display', sans-serif;
 
 }
+.buttons-container {
+    display: inline-flex;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .btn-save {
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+  }
+  .btn-contacts {
+    background-image: linear-gradient(to right, #CB356B 0%, #BD3F32  51%, #CB356B  100%);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+  }

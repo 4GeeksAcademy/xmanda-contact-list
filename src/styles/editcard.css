@@ -1,37 +1,44 @@
-.modal-content{
-background-color: rgba(36, 34, 34);
+.modal-content {
+  background-color: rgba(36, 34, 34);
 }
 
-.modal-title{
-    font-weight: 700;
+.modal-title {
+  font-weight: 700;
 }
+
 input {
-    border: none;
+  border: none;
 }
-.btn-save{
-        background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
-        margin: 10px;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;            
-        border-radius: 10px;
-      }
 
-      .btn-exit{
-        background-image: linear-gradient(to right, #757F9A 0%, #a8acb3  51%, #757F9A  100%);
-        margin: 10px;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;            
-        border-radius: 10px;
-      }
+.btn-save {
+  background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+}
 
-      .button-container{
-        display:inline-flex;
-      }
+.btn-exit {
+  background-image: linear-gradient(to right, #757F9A 0%, #a8acb3 51%, #757F9A 100%);
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  display: inline-flex;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.modal-body{
+  padding: 1rem 1rem 0rem 1rem;
+}
